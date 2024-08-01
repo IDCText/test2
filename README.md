@@ -28,11 +28,11 @@ git clone https://github.com/your-username/your-repository-name.git
 
 2. Download the Source Code
 If you prefer not to use Git, you can also download the source code as a ZIP file and extract it to your desired location.
-    -Open phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser
-    -Create a new database named textABC.
-    -Import the SQL files provided in the databases folder into the textABC database:
+    - Open phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser
+    - Create a new database named textABC.
+    - Import the SQL files provided in the databases folder into the textABC database:
       Click on the textABC database, go to the Import tab, and select the nusers.sql file from the databases folder. Click Go to import the file.
-      Repeat the process by importing the studies.sql file into the same textABC database.
+    - Repeat the process by importing the studies.sql file into the same textABC database.
    
 5. Configure the Project
 If using XAMPP, store the project files in the htdocs directory:
