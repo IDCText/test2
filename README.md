@@ -25,20 +25,24 @@ git clone https://github.com/your-username/your-repository-name.git
 ### 2. Set Up the Database
 
 1. Open phpMyAdmin by navigating to `http://localhost/phpmyadmin` in your web browser.
+
+2. Download the Source Code
+If you prefer not to use Git, you can also download the source code as a ZIP file and extract it to your desired location.
+    1.Open phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser
+    2.Create a new database named textABC.
+    3.Import the SQL files provided in the databases folder into the textABC database:
+      Click on the textABC database, go to the Import tab, and select the nusers.sql file from the databases folder. Click Go to import the file.
+      Repeat the process by importing the studies.sql file into the same textABC database.
    
-2. Create two new databases:
-   - `nusers`
-   - `studies`
+4. Configure the Project
+If using XAMPP, store the project files in the htdocs directory:
 
-3. Import the SQL files provided in the `sql` folder into the respective databases:
-   - Click on the `nusers` database, go to the **Import** tab, and select the `nusers.sql` file from the `sql` folder. Click **Go** to import the file.
-   - Repeat the process for the `studies` database by importing the `studies.sql` file.
+bash
+Copy code
+cp -r your-repository-name /path-to-xampp/htdocs/
+Ensure the project folder is located in the htdocs directory of your XAMPP installation.
 
-### 3. Configure the Project
+5. Access the Project
+Start the Apache and MySQL services in the XAMPP Control Panel.
 
-If using XAMPP, store the project files in the `htdocs` directory:
-
-1. Copy the cloned project folder to the `htdocs` directory:
-   ```bash
-   cp -r your-repository-name /path-to-xampp/htdocs/
-
+Open your web browser and navigate to http://localhost/ABCText.
