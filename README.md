@@ -36,13 +36,10 @@ If you prefer not to use Git, you can also download the source code as a ZIP fil
    
 5. Configure the Project
 If using XAMPP, store the project files in the htdocs directory:
-
-bash
-Copy code
-cp -r your-repository-name /path-to-xampp/htdocs/
-Ensure the project folder is located in the htdocs directory of your XAMPP installation.
+- Ensure the project folder is located in the htdocs directory of your XAMPP installation.
 
 6. Access the Project
 Start the Apache and MySQL services in the XAMPP Control Panel.
 
-Open your web browser and navigate to http://localhost/ABCText.
+
+**Open your web browser and navigate to http://localhost/ABCText**.
