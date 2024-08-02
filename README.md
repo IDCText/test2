@@ -11,7 +11,7 @@ First, download the source code or clone the repository using Git.
 
 **To clone the repository:**
 ```bash
-git clone https://github.com/your-username/your-repository-name.git
+https://github.com/ABCText-IndianLanguages/test2.git
 
 
 ```
