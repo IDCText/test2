@@ -3,7 +3,6 @@
 ## Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
 - [**XAMPP**](https://www.apachefriends.org/index.html) (or any other local server like WAMP, MAMP, etc.)
-- 
 - XAMPP is an open-source web server solution package. It is mainly used for web application testing on a local host webserver.
 XAMPP stands for:
 X = Cross-platform
@@ -17,7 +16,7 @@ On completing the download of the setup file, begin the installation process and
 
 Next, select the directory where you want the software to be installed. It is recommended that you keep the default directory “C:\xampp” and click on “next” to complete the installation
 
-- ![image](https://github.com/user-attachments/assets/65e66106-5c0b-40d5-816d-aace1fd0e099)
+![image](https://github.com/user-attachments/assets/65e66106-5c0b-40d5-816d-aace1fd0e099)
 
 
 
