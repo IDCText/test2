@@ -53,8 +53,8 @@ Before you run or start writing any program in PHP, you should start Apache and 
 1. Open phpMyAdmin by navigating to `http://localhost/phpmyadmin` in your web browser.
      - Create a new database named **'textidc'** .
     - Import the SQL files provided in the databases folder into the textidc database:
-      Click on the textidc database, go to the Import tab, and select the nusers.sql file from the databases folder. Click Go to import the file.
-    - Repeat the process by importing the studies.sql file into the same textABC database.
+      Click on the textidc database, go to the Import tab, and select the **'nusers.sql'** file from the databases folder. Click Go to import the file.
+    - Repeat the process by importing the **'studies.sql'** file into the same textABC database.
 
 
 **Open your web browser and navigate to http://localhost/IDCText**.
