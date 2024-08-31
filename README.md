@@ -12,6 +12,10 @@ P = PHP
 P = Perl
 On completing the download of the setup file, begin the installation process and, in the “Select Components” section, select all the required components.
 
+![image](https://github.com/user-attachments/assets/87332a04-5ae4-41b4-8cd8-62186ae80484)
+
+Next, select the directory where you want the software to be installed. It is recommended that you keep the default directory “C:\xampp” and click on “next” to complete the installation
+
 - ![image](https://github.com/user-attachments/assets/65e66106-5c0b-40d5-816d-aace1fd0e099)
 
 ![image](https://github.com/user-attachments/assets/2f3ef1aa-cc8f-478b-a03e-352ef692c42e)
