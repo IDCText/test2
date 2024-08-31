@@ -35,9 +35,17 @@ https://github.com/ABCText-IndianLanguages/test2.git
 - If you don not want to clone from github , you can download the source code as a ZIP file.
 - Extract the ZIP file to your desired location.
 
+### 3. Directory Structure
+![image](https://github.com/user-attachments/assets/2f778b1f-cdc2-40d0-9832-3ce68e71ceea)
+
+  In the XAMPP directory, there exists a folder called “htdocs”. This is where all the programs for the web pages will be stored.
+   Now, to run a PHP script:
+   
+   Go to “C:\xampp\htdocs” and inside it, and move the source code downloaded here.
+
 ### Setup Instructions
 
-### 3. Set Up the Database
+### 4. Set Up the Database
 ![image](https://github.com/user-attachments/assets/f4b66c0f-c490-4867-bfe9-bc95acbd32d7)
 
 Before you run or start writing any program in PHP, you should start Apache and MYSQL in xampp as shown above.
@@ -48,19 +56,6 @@ Before you run or start writing any program in PHP, you should start Apache and 
       Click on the textABC database, go to the Import tab, and select the nusers.sql file from the databases folder. Click Go to import the file.
     - Repeat the process by importing the studies.sql file into the same textABC database.
 
-3. Directory structure
-   In the XAMPP directory, there exists a folder called “htdocs”. This is where all the programs for the web pages will be stored.
-   Now, to run a PHP script:
-   
-   Go to “C:\xampp\htdocs” and inside it, create a folder.
-
-   
-5. Configure the Project
-If using XAMPP, store the project files in the htdocs directory:
-- Ensure the project folder is located in the htdocs directory of your XAMPP installation.
-
-6. Access the Project
-Start the Apache and MySQL services in the XAMPP Control Panel.
 
 
 **Open your web browser and navigate to http://localhost/ABCText**.
