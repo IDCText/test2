@@ -3,6 +3,18 @@
 ## Prerequisites
 Before you begin, ensure you have the following installed on your local machine:
 - [**XAMPP**](https://www.apachefriends.org/index.html) (or any other local server like WAMP, MAMP, etc.)
+- XAMPP is an open-source web server solution package. It is mainly used for web application testing on a local host webserver.
+XAMPP stands for:
+X = Cross-platform
+A = Apache Server
+M = MariaDB
+P = PHP
+P = Perl
+On completing the download of the setup file, begin the installation process and, in the “Select Components” section, select all the required components.
+
+- ![image](https://github.com/user-attachments/assets/65e66106-5c0b-40d5-816d-aace1fd0e099)
+
+![image](https://github.com/user-attachments/assets/2f3ef1aa-cc8f-478b-a03e-352ef692c42e)
 
 ## Step-by-Step Instructions
 
@@ -23,11 +35,12 @@ https://github.com/ABCText-IndianLanguages/test2.git
 
 ### 3. Set Up the Database
 ![image](https://github.com/user-attachments/assets/f4b66c0f-c490-4867-bfe9-bc95acbd32d7)
-Before you run or start writing any program in PHP, you should start Apache and MYSQL in xampp.
+
+Before you run or start writing any program in PHP, you should start Apache and MYSQL in xampp as shown above.
 
 1. Open phpMyAdmin by navigating to `http://localhost/phpmyadmin` in your web browser.
 
-2. Download the Source Code
+2. Directory structure 
 If you prefer not to use Git, you can also download the source code as a ZIP file and extract it to your desired location.
     - Open phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser
     - Create a new database named textABC.
