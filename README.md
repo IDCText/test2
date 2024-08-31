@@ -43,14 +43,17 @@ https://github.com/ABCText-IndianLanguages/test2.git
 Before you run or start writing any program in PHP, you should start Apache and MYSQL in xampp as shown above.
 
 1. Open phpMyAdmin by navigating to `http://localhost/phpmyadmin` in your web browser.
-
-2. Directory structure 
-If you prefer not to use Git, you can also download the source code as a ZIP file and extract it to your desired location.
-    - Open phpMyAdmin by navigating to http://localhost/phpmyadmin in your web browser
-    - Create a new database named textABC.
+     - Create a new database named textABC.
     - Import the SQL files provided in the databases folder into the textABC database:
       Click on the textABC database, go to the Import tab, and select the nusers.sql file from the databases folder. Click Go to import the file.
     - Repeat the process by importing the studies.sql file into the same textABC database.
+
+3. Directory structure
+   In the XAMPP directory, there exists a folder called “htdocs”. This is where all the programs for the web pages will be stored.
+   Now, to run a PHP script:
+   
+   Go to “C:\xampp\htdocs” and inside it, create a folder.
+
    
 5. Configure the Project
 If using XAMPP, store the project files in the htdocs directory:
